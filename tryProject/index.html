@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+    <div id="mian">  
+        <form class="form" action="">
+            <label for="guessField" id="guess">Guess a Number</label>
+            <input type="text" class="guessField" id="guessField">
+            <input type="submit" id="subit" value = "Submit guess"
+            class="guessSubmit"
+            >
+        </form>
+
+        <div class="resultParas">
+            <p>Previous Guesses: <span class="guesses"></span></p>
+            <p>Guesses Remaining: <span class="LastResult"></span></p>
+            <p class="lowerHigh"></p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
